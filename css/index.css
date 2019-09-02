@@ -1,3 +1,16 @@
+.btn {
+  font-size: 20px;
+  background-color: #080d2f;
+  border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  padding: 9px;
+  color: white;
+}
+btn.hover {
+  background-color: green;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -167,6 +180,15 @@ p {
 }
 .navbar p {
   padding: 0 15px;
+}
+.navbg {
+  background-color: #f1f1f1a8;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  width: 900px;
+  margin-left: -60px;
 }
 nav {
   font-size: 20px;
