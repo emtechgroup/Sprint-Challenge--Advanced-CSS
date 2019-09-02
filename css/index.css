@@ -11,6 +11,20 @@
 btn.hover {
   background-color: green;
 }
+@media only screen and (max-width: 500px) {
+  .btn {
+    font-size: 20px;
+    background-color: #080d2f;
+    border-radius: 6px;
+    width: 459px;
+    height: 71px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    margin-left: -50px;
+    margin-bottom: -20px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -197,6 +211,34 @@ nav {
   display: flex;
   justify-content: space-evenly;
 }
+@media only screen and (max-width: 500px) {
+  .navbar h2 {
+    padding: 15px;
+    font-size: 44px;
+    text-align: center;
+    margin-left: -288px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  nav {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -340px;
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navbg {
+    background-color: #f1f1f1a8;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 500px;
+    margin-left: 136px;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -223,6 +265,19 @@ footer {
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .home .space-images img {
+    width: 100%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home .space-images img sky {
+    display: none;
+  }
 }
 .home .visit-planets {
   padding: 15px;
