@@ -140,3 +140,8 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Create a fixed navigation and add some opacity to the background
 
 * [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+
+
+*/create 2 Mixins
+create 1 paramtric mixin use 2 parameters apply to button
+create hover state that swaps background Color*/
